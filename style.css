@@ -1,0 +1,35 @@
+:root {
+    --col-orange: #ff4f00;
+    --col-black: #000000;
+    --col-yellow: #ff9500;
+    --col-pink: #f80043;
+}
+
+html,
+body {
+  font-size: 100%;
+  margin: 0;
+} /* user's default. use rem to set other fonts relative to it */
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+} /* make box sizing more predictable! */
+
+body {
+    background-color: black;
+    color: orange;
+}
+
+.trackBox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.trackBox img {
+    border-radius: 50%;
+}
